@@ -22,7 +22,7 @@ namespace WindowsFormsApplication2
             VisFalse();
            
 
-           /* // Создание подключения
+           /* // С здание подключения
             SqlConnection connection = new SqlConnection(connectionString);
             try
             {
