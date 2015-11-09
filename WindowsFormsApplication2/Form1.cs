@@ -15,14 +15,14 @@ namespace WindowsFormsApplication2
     public partial class Form1 : Form
     {
 
-        string connectionString = @"Data Source=Evgenii\SQLEXPRESS;Initial Catalog=Techins;Integrated Security=True";
+        string connectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=Techins;Integrated Security=True";
         public Form1()
         {
             InitializeComponent();
             VisFalse();
            
 
-           /* // С здание подключения
+           /* // Создание подключения
             SqlConnection connection = new SqlConnection(connectionString);
             try
             {
